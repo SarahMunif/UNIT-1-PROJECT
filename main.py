@@ -114,7 +114,7 @@ def handle_new_user():
 
     ai_output = response.choices[0].message.content
     ai_output=clean_json_string(ai_output)
-    print(f"ai_output\n {ai_output}")
+    
     save_json(ai_output)
     # Parse AI output and create Task instances
     tasks = parse_ai_output(ai_output)
