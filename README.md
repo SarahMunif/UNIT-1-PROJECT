@@ -19,7 +19,7 @@
 
 #### User Guide for Task Management System :
     
-    For New Project Manager User:
+For New Project Manager User:
 
 
   - Create New Project Manager: 
