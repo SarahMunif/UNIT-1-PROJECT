@@ -24,7 +24,7 @@ For New Project Manager User:
 
   - Create New Project Manager: 
     Type new if you are setting up as a New Project Manager.Follow the on-screen instructions to input project details and automatically generate tasks using the AI system.
----------------------------------------------------
+
 For Project Manager User:
 
  - Log in: Type Project Manager if you are an Project Manager to log into the Project Manager panel.
@@ -42,9 +42,8 @@ For Project Manager User:
  - View Member's Tasks: Type member tasks and enter the responsible person's name to view all tasks assigned to
 
  - Exit: Type exit to leave the Project Manager panel.
----------------------------------------------------
 
--  For Existing Members:
+For Existing Members:
 
  - Log in: Type member if you are an Existing Member to access your tasks.
 
