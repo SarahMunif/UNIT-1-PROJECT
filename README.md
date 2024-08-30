@@ -25,7 +25,7 @@
   - Create New Project Manager: 
     Type new if you are setting up as a New Project Manager.Follow the on-screen instructions to input project details and automatically generate tasks using the AI system.
 ---------------------------------------------------
-  For Project Manager User:
+For Project Manager User:
 
  - Log in: Type Project Manager if you are an Project Manager to log into the Project Manager panel.
 
