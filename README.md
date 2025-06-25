@@ -1,60 +1,75 @@
+# 🗂️ TrackTask System
 
+**TrackTask** is an intelligent command-line Task Management System designed to simplify and enhance project coordination between **Project Managers** and **Team Members**. Built with a focus on clarity, collaboration, and ease of use, the system incorporates AI-generated task suggestions using the **OpenAI API**, making it more than just a manual task tracker.
 
-# TrackTask System :
+## 🚀 Overview
 
+TrackTask is a versatile online tool designed for seamless project and task management. It serves two key user roles:
 
-#### Overview :  Task Tracker Management System is a versatile online tool designed to facilitate seamless project management. It caters to two primary users: the Project Managers and the Team Members. Each user group plays a critical role in the functionality of the system, ensuring the efficient operation and successful completion of projects. 
+- **Project Managers**: Plan, assign, and monitor tasks across the team.
+- **Team Members**: Stay updated with assigned tasks, provide progress updates, and communicate blockers.
 
-#### As a project manager , I should be able to do the following :
-- to add, edit, and delete tasks to ensure the project's tasks are always up-to-date and relevant
+By integrating prompt-based task generation using the OpenAI API, TrackTask helps streamline project setup and keeps management intelligent and proactive.
 
-- to view all tasks and their statuses across all team members to maintain a comprehensive oversight of the project
+## 👩‍💼 Project Manager Features
 
-#### As a Team member , I should be able to do the following :
--  to view tasks assigned to me so that I can manage my workload effectively and prioritize my responsibilities
+As a Project Manager, you can:
 
-- to update the status of my tasks and add comments to ensure the project manager is informed about progress and any 
-  issues encountered
+- ➕ **Add, edit, and delete tasks** to ensure projects remain up-to-date and relevant.
+- 👀 **View all tasks and their statuses** across all team members for comprehensive oversight.
+- 🤖 **Generate tasks using AI** when creating a new project to accelerate planning and ideation.
 
+## 👷 Team Member Features
 
-#### User Guide for Task Management System :
-    
-For New Project Manager User:
+As a Team Member, you can:
 
+- 📋 **View tasks assigned** to you for effective workload management.
+- ✅ **Update task statuses** to reflect progress and stay aligned with deadlines.
+- 💬 **Add or edit comments** to keep the Project Manager informed of updates or blockers.
 
-  - Create New Project Manager: 
-    Type new if you are setting up as a New Project Manager.Follow the on-screen instructions to input project details and automatically generate tasks using the AI system.
+## 🧠 Built with:
+- Python
+- OpenAI API (Prompt-based task suggestions)
+- Command-line interface (CLI)
 
-For Project Manager User:
+---
 
- - Log in: Type Project Manager if you are an Project Manager to log into the Project Manager panel.
+## 📘 User Guide
 
- - Add a Task:Type add to add a new task.
-   You will be prompted to enter details such as Task Title, Responsible Person, Start Date (YYYY-MM-DD), End Date (YYYY-MM-DD), and Task ID.
+### 🆕 New Project Manager
 
- - Delete a Task: Type delete to remove an existing task. You need to enter the Task ID of the task you wish to delete.
+- **Start Setup**: Type `new` to create a new project and auto-generate tasks via AI.
+- Follow on-screen instructions to enter project details.
 
- - Edit a Task:Type edit to modify details of an existing task.
-   Provide the Task ID, and then you will be able to change Task Title, Responsible Person, Start Date, End Date Status.
+### 👩‍💼 Project Manager Panel
 
- - View All Tasks: Type info to display a list of all tasks currently managed within the system.
+- **Login**: Type `Project Manager` to log in as a manager.
+- **Add a Task**: Type `add`, then provide:
+  - Task Title  
+  - Responsible Person  
+  - Start Date (`YYYY-MM-DD`)  
+  - End Date (`YYYY-MM-DD`)  
+  - Task ID
+- **Delete a Task**: Type `delete` and enter the Task ID.
+- **Edit a Task**: Type `edit`, provide Task ID, and modify:
+  - Task Title  
+  - Responsible Person  
+  - Start Date / End Date  
+  - Status
+- **View All Tasks**: Type `info` to see the full task list.
+- **View Member's Tasks**: Type `member tasks` and enter the member's name.
+- **Exit**: Type `exit` to leave the manager panel.
 
- - View Member's Tasks: Type member tasks and enter the responsible person's name to view all tasks assigned to
+### 🧑‍💻 Team Member Panel
 
- - Exit: Type exit to leave the Project Manager panel.
+- **Login**: Type `member` to access your assigned tasks.
+- **Update Task Status**: Type `edit status`, then enter Task ID and new status.
+- **Add/Edit Comment**: Type `comment`, then enter Task ID and your message.
+- **View Your Tasks**: Type `info` to list your assigned tasks.
 
-For Existing Members:
+---
 
- - Log in: Type member if you are an Existing Member to access your tasks.
+## 📌 Note
 
- - Edit Task Status: Type edit status to update the status of a task.
-   You will be asked to provide the Task ID and the new status you wish to set.
-
- - Add/Edit Comment: Type comment to add or edit a comment on a task.
-   Provide the Task ID and your new comment.
-
- - View Your Tasks: Type info to view all tasks assigned to you.
-
-
-
+This system currently runs on the command line and is designed as a prototype.
 
